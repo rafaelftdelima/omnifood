@@ -66,6 +66,7 @@
 ## Greys
 
     #555
+    #333
 
 
 # SHADOWS SYSTEM
@@ -116,4 +117,11 @@ a {
 
 img {
     max-width: 100%;
+}
+
+.heading__primary {
+    font-size: 5.2rem;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.05;
 }
