@@ -1,0 +1,85 @@
+.section-hero {
+    background: #fdf2e9;
+    padding: 4.8rem 0px 9.6rem 0px;
+}
+
+.section-hero__grid {
+    max-width: 130rem;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 9.6rem;
+    padding: 0px 3.2rem;
+}
+
+.section-hero__description {
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 4.8rem;
+}
+
+.section-hero__button:link,
+.section-hero__button:visited {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1.6rem 3.2rem;
+    border-radius: 0.9rem;
+    transition: background 0.3s;
+}
+
+.section-hero__button--primary:link,
+.section-hero__button--primary:visited { 
+    background: #e67e22;
+    color: #fff;
+}
+
+.section-hero__button--primary:active,
+.section-hero__button--primary:hover { 
+    background: #cf711f;
+}
+
+.section-hero__button--secondary:link,
+.section-hero__button--secondary:visited {
+    background: #fff;
+    color: #555;
+}
+
+.section-hero__button--secondary:active,
+.section-hero__button--secondary:hover { 
+    background: #fdf2e9;
+    box-shadow: inset 0px 0px 0px 3px #fff;
+}
+
+.meals,
+.meals__imgs {
+    display: flex;
+}
+
+.meals {
+    margin-top: 8rem;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.meals__imgs img {
+    height: 4.8rem;
+    width: 4.8rem;
+    border-radius: 50%;
+    margin-right: -1.6rem;
+    border: 3px solid #fdf2e9;
+}
+
+.meals__imgs img:last-of-type {
+    margin-right: 0px;
+}
+
+.meals p {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.meals span {
+    color: #cf711f;
+}
